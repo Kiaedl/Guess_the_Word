@@ -1,6 +1,10 @@
 from tkinter import *
 from random import randint
 
+# При нажатии мышкой на кнопку
+def pressLetter(n):
+    print(f"Вы нажали на букву {chr(st + n)}")
+
 #Создание окна
 root = Tk()                   # В переменной root хранится сслыка на окно в памяти
 root.resizable(False, False)  # Запрещаем изменение размеров окна
